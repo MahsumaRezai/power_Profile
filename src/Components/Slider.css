@@ -1,0 +1,66 @@
+/* Basic styling for the slider container */
+.slider-container {
+    position: relative;
+    max-width: 1000px; /* You can adjust the width of the slider */
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  /* Styling the slider image */
+  .slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slider-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: Add rounded corners */
+    transition: transform 0.5s ease-in-out; /* Smooth transition for sliding */
+  }
+  
+  /* Navigation buttons */
+  .prev-btn,
+  .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 10;
+    transition: background-color 0.3s;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+  
+  /* Hover effect on buttons */
+  .prev-btn:hover,
+  .next-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .slider-container {
+      max-width: 100%;
+    }
+    
+    .prev-btn,
+    .next-btn {
+      font-size: 25px;
+      padding: 8px;
+    }
+  }
+  

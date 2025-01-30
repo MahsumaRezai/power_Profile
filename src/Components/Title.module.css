@@ -1,0 +1,26 @@
+.textabout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px ;
+    padding: 20px;
+
+}
+.textabout h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.textabout h1:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 70px;
+    height: 5px;
+    background: #4caf50;
+    left: 0;
+    bottom: 0;
+}

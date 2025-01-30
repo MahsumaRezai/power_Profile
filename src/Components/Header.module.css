@@ -1,0 +1,8 @@
+/* Styling for the main section */
+.main {
+    flex-grow: 1;
+    background-color: #040b14;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+  }

@@ -1,0 +1,75 @@
+/* Style the section title */
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .section-title h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .section-title p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+  }
+  
+  /* Resume item styling */
+  .resume-item {
+    margin-bottom: 20px;
+    line-height: 1.625
+  }
+  
+  .resume-title {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .resume-item ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.625;
+    padding-top: 10px
+  }
+  
+  .resume-item ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Grid layout for the sections */
+  .container {
+    margin: 0 auto;
+    background: #f4fafd;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-lg-6 {
+    width: 50%;
+    padding: 0 15px;
+  }
+ 
+
+.resume-title h3:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 70px;
+    height: 5px;
+    background:#4caf50;
+    left: 0;
+    bottom: 0;
+}
+  /* Add responsive design */
+  @media (max-width: 768px) {
+    .col-lg-6 {
+      width: 100%;
+    }
+  }
+  
