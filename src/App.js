@@ -7,7 +7,7 @@ import Skills from './Components/Skill';
 import Resume from './Components/Resume';
 import { Project } from './Components/Project';
 import Certfation from './Components/Certfation';
-import Contact from './Components/Contact';
+//import Contact from './Components/Contact';
 
 
 const App = (props) => {
@@ -18,12 +18,12 @@ const App = (props) => {
             <About />
             <Skills />
             <Resume />
-            <Project/>
-            <Certfation/>
-            <Contact/>
+            <Project />
+            <Certfation />
             
-            
-            
+
+
+
 
 
 
