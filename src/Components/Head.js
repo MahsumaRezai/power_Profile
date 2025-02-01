@@ -1,8 +1,6 @@
-
 // src/Header.js
 import React, { useState } from 'react';
 import './Head.css';
-
 
 const Head = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,7 +11,7 @@ const Head = () => {
 
     return (
         <header className="header">
-            <div className="logo">My Protofilo</div>
+            <div className="logo">My Portfolio</div>
 
             <nav className={`nav-links ${isMenuOpen ? 'active' : ''}`}>
                 <ul className="list">
@@ -26,17 +24,13 @@ const Head = () => {
                     <li><a href="#contact">Certificates</a></li>
                     <li><a href="#contact">Idea</a></li>
                     <li><a href="#contact">Contact</a></li>
-
                 </ul>
             </nav>
             <button className="menu-button" onClick={toggleMenu}>
-                {isMenuOpen ? ' Close ' : 'Open'}
+                {isMenuOpen ? 'Close' : 'Open'}
             </button>
         </header>
     );
 };
 
 export default Head;
-
-
-
