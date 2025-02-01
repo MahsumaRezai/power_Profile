@@ -1,12 +1,19 @@
 import React from 'react';
-import './DownloadButton.css';  // For styling
+import './DownloadButton.css';
 
-const DownloadButton = () => {
+const Button = () => {
+    const handleDownload = () => {
+        const link = document.createElement('a');
+        link.href = '/cv.pdf'; // The path to your CV
+        link.download = 'My_CV.pdf'; // The name for the downloaded file
+        link.click();
+    };
+
     return (
-        <a href="/path/to/your/cv.pdf" download>
-            <button className="download-btn">Download CV</button>
-        </a>
+        <button className="download-btn" onClick={handleDownload}>
+            Download CV
+        </button>
     );
 };
 
-export default DownloadButton;
+export default Button;

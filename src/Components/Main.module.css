@@ -5,25 +5,26 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    gap: 10px;
-    background: #040b14
+    gap: 20px;
+     background: #040b14
 }
 
 .textmain {
     flex: 1;
     max-width: 500px;
+    color: whitesmoke
+}
+p { 
+    color: whitesmoke;
+    padding-bottom: 20px;
+    font-size: 20px
+
 }
 
 .name {
     font-size: 3rem;
     font-weight: bold;
     margin: 10px 0;
-    color: whitesmoke
-}
-P {
-    color: whitesmoke;
-    font-size: 20px;
-    padding-bottom: 20px   
 }
 
 .job {
