@@ -38,14 +38,14 @@ const Resume = () => {
                         <div className="resume-item">
                             <h4>Bachelor of Computer Science & Full-Stack Developer</h4>
                             <h5>YHDO</h5>
-                            <p><em>Business Development Services</em></p>
+                            <p>Business Development Services</p>
                             <p>Afghanistan Herat (2023-2024), Business Development Services.</p>
                         </div>
 
                         <div className="resume-item">
                             <h4>Heart University</h4>
                             <h5>Computer Science</h5>
-                            <p><em>Computer Science Faculty of Herat University</em></p>
+                            <p>Computer Science Faculty of Herat University</p>
                             <p>Afghanistan (2017–2021) Graduated from the Computer Science Faculty of Herat University.</p>
                         </div>
 

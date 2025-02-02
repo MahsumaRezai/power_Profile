@@ -41,7 +41,8 @@ p {
 .triangle {
     max-width: 100%;
     height: auto;
-    border-radius: 10px;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    border: 20px solid #4caf50;;
 }
 
 /* Media queries for responsiveness */
