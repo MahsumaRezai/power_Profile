@@ -5,14 +5,17 @@ const Button = () => {
     const handleDownload = () => {
         const link = document.createElement('a');
         link.href = '/cv.pdf'; // The path to your CV
-        link.download = 'My_CV.pdf'; // The name for the downloaded file
+        link.download = 'My_CV.pdf';
         link.click();
     };
 
     return (
-        <button className="download-btn" onClick={handleDownload}>
-            Download CV
-        </button>
+        <div className="btn">
+            <div className="download-btn" onClick={handleDownload}>
+                Download CV
+        </div>
+        </div>
+
     );
 };
 

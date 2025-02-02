@@ -2,6 +2,7 @@ import { Fragment } from 'react';
 import './Portfolio.css';
 import { Title } from './Title';
 import { Crad } from './Crad';
+import Button from './Button';
 export const Project = (props) => {
     return (
         <Fragment>
@@ -14,6 +15,7 @@ Hello, my name is Masoumeh Nawrozi. I live in Herat, Afghanistan. I like coding 
                 </p>
                 <div>
                     <Crad />
+                    <Button/>
 
 
 
