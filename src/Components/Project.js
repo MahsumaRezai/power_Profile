@@ -8,9 +8,9 @@ export const Project = (props) => {
         <Fragment>
             <div className="cardwarrper">
                 <Title title="Portfolio" />
-                <p>There are some of my works
+                <p>There are some of my works and another my works ara in my Github account
 
-Hello, my name is Masoumeh Nawrozi. I live in Herat, Afghanistan. I like coding I have been learning programming for three year. During this time, I have worked on many projects in this sector and every day I try to increase my abilities in this sector.
+
 
                 </p>
                 <div>

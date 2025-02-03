@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Contact.css';
 import { Fragment } from 'react'
+import Idea from './Idea';
 
 
 const Contact = () => {
@@ -27,6 +28,9 @@ const Contact = () => {
 
     return (
         <Fragment>
+            <Idea/>
+     
+
 
 
             <div className="contact-container">

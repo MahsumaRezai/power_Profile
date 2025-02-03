@@ -93,6 +93,7 @@ a {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     unicode-bidi: isolate;
+    font-weight: bold
 
 }
 @media screen and (max-width:768px){
