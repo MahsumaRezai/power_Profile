@@ -37,7 +37,7 @@ a {
 .info strong {
     font-size: 18px;
     font-weight: bold;
-    color: darkred
+    color: #ff6347; 
 }
 .info h1 {
     font-size: 25px;

@@ -70,8 +70,8 @@ textarea {
 }
 
 .map-container {
-    width: 100%;
-    max-width: 800px;
+    width: 70%;
+    max-width: 450px;
     margin: 0 auto;
     background-color: #f1f1f1;
     border-radius: 8px;
