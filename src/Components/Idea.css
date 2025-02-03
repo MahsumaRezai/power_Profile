@@ -9,7 +9,7 @@
 }
  
  
- p {
+ .para {
     font-size: 18px;
     line-height: 1.625;
     color: #555;
@@ -19,6 +19,5 @@
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     unicode-bidi: isolate;
-    font-weight: bold;
 
  }

@@ -8,6 +8,7 @@ import Resume from './Components/Resume';
 import { Project } from './Components/Project';
 import Certfation from './Components/Certfation';
 import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 
 
 const App = (props) => {
@@ -21,6 +22,7 @@ const App = (props) => {
             <Project />
             <Certfation />
             <Contact/>
+            <Footer/>
             
 
 

@@ -6,7 +6,7 @@
     align-items: center;
     padding: 20px;
     gap: 20px;
-     background: #040b14
+   background: #040b14
 }
 
 .textmain {
@@ -14,10 +14,10 @@
     max-width: 500px;
     color: whitesmoke
 }
-.para { 
+.paratow { 
     color: whitesmoke;
     padding-bottom: 30px;
-    font-size: 25px
+    font-size: 30px
 
 }
 
@@ -39,7 +39,7 @@
 
 /* Image styling */
 .triangle {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
     border: 20px solid #4caf50;;

@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 import classes from './About.module.css';
-import img from '../img/mainimg.jpg'
+import img from '../img/mainimg.jpg';
 
 
 export const About = (props) => {
@@ -29,6 +29,7 @@ export const About = (props) => {
 
                             <li><i class="bi" ></i> <strong>Github:</strong> <a href=""> https://github.com/MahsumaRezai
                                 </a></li>
+                                
                             <li><i className={classes.bi}></i> <strong>Email Address:</strong> <a href=""> mahsuma.rezai8@gmail.com</a></li>
                             <li><i className={classes.bi}></i> <strong>X Account:</strong>
                                 <a> @MahsumaRezai</a></li>

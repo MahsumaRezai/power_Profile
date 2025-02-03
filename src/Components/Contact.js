@@ -22,16 +22,13 @@ const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Handle form submission (e.g., send data to an API or email)
+
         console.log('Form submitted', formData);
     };
 
     return (
         <Fragment>
-            <Idea/>
-     
-
-
+            <Idea />
 
             <div className="contact-container">
                 <div className="contact-form">
@@ -50,7 +47,7 @@ const Contact = () => {
                         </div>
 
                         <div className="form-group">
-                            <label htmlFor="email">Email</label>
+                            <label htmlFor="mahsuma.rezai8@gmail.com">Email</label>
                             <input
                                 type="email"
                                 id="email"

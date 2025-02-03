@@ -8,7 +8,7 @@ export const Main = (props) => {
         <Fragment>
             <div className={classes.main}>
                 <div className={classes.textmain}>
-                    <span className="para">Welcome to my portfolio website!</span>
+                    <span className="paratow">Welcome to my portfolio website!</span>
                     <h1 className={classes.name}>Hi, I'm Masoumeh <span className={classes.job}>Full-Stack Developer</span></h1>
                     <span className={classes.condation}>Climbing Under Any Conditions</span>
                     <Button />
