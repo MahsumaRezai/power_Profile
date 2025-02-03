@@ -32,3 +32,10 @@
 .download-btn:active {
     background-color: #3e8e41; /* Even darker green when clicked */
 }
+
+@media (max-width: 768px) {
+    .download-btn {
+        width: 200px;
+        padding: 10px 10px;
+    }
+    }
